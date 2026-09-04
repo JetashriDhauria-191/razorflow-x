@@ -1,0 +1,28 @@
+{
+  "random_forest": {
+    "model_name": "Random Forest Classifier",
+    "accuracy": 0.9608,
+    "precision": 0.9863,
+    "recall": 0.8645,
+    "f1_score": 0.9213,
+    "roc_auc": 0.9407,
+    "feature_importances": {
+      "amount": 0.0307,
+      "retry_count": 0.2646,
+      "failure_count": 0.3184,
+      "transaction_frequency_10min": 0.0373,
+      "hour_of_day": 0.0102,
+      "previous_success_rate": 0.1713,
+      "velocity_score": 0.1048,
+      "device_trust_score": 0.0627
+    }
+  },
+  "logistic_regression": {
+    "model_name": "Logistic Regression (Baseline)",
+    "accuracy": 0.956,
+    "precision": 0.9541,
+    "recall": 0.8765,
+    "f1_score": 0.9137,
+    "roc_auc": 0.9362
+  }
+}
