@@ -1,3 +1,14 @@
+import os
+import sys
+from pathlib import Path
+
+_BACKEND_DIR = Path(__file__).resolve().parent
+_ROOT_DIR = _BACKEND_DIR.parent
+
+for _dir in [str(_BACKEND_DIR), str(_ROOT_DIR)]:
+    if _dir not in sys.path:
+        sys.path.insert(0, _dir)
+
 
 try:
     from backend.growth_brain import growth_brain

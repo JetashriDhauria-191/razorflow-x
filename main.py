@@ -1,5 +1,16 @@
 import os
 import sys
+from pathlib import Path
+
+_ROOT_DIR = Path(__file__).resolve().parent
+_BACKEND_DIR = _ROOT_DIR / "backend"
+
+for _dir in [str(_ROOT_DIR), str(_BACKEND_DIR)]:
+    if _dir not in sys.path:
+        sys.path.insert(0, _dir)
+
+import os
+import sys
 import uuid
 import datetime
 from pathlib import Path
