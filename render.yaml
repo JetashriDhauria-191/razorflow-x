@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: razorflow-x
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+      - key: PYTHONPATH
+        value: .
+      - key: USE_MOCK_FALLBACK
+        value: "True"
