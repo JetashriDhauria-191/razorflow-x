@@ -2,6 +2,8 @@
 
 ## Autonomous AI Payment Reliability, Risk Prevention & Revenue Recovery System
 
+🌐 **Live Deployed App**: [https://razorflow-x-4eq1.onrender.com](https://razorflow-x-4eq1.onrender.com)
+
 > **RAZORFLOW X** is an enterprise-grade AI Payment Reliability Operating System engineered natively for the Razorpay ecosystem. It bridges conversational AI shopping with automated pre-auth risk prevention, intelligent gateway circuit routing, in-flight transaction self-healing, and mathematically verifiable double-entry money safety.
 
 ```
